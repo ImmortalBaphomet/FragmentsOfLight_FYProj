@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7131544021666791494
+--- !u!114 &-9214451313671282260
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Vignette
-  m_Shader: {fileID: -6465566751694194690, guid: c5b729437df7f4f44b57ecca3b9a6ddf,
+  m_Name: Shader Graphs_UI_Shader
+  m_Shader: {fileID: -6465566751694194690, guid: ad68f10712739f444820d0309d9d11c3,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -41,7 +41,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Texture:
+    - _Texture2D:
         m_Texture: {fileID: 2800000, guid: 7315400271f1d294680a3ab4f696f5a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -65,15 +65,14 @@ Material:
     - _CastShadows: 0
     - _Cull: 2
     - _DstBlend: 10
-    - _Light_Scale: 6
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Scale: 0
     - _SrcBlend: 5
     - _Surface: 1
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _intensity: 0.5
-    m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _scale: 1
+    m_Colors: []
   m_BuildTextureStacks: []
